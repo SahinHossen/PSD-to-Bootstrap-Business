@@ -1,0 +1,510 @@
+/* Extra small devices [COL] (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+	/* Header Start */
+	.header-item {
+		text-align: center;
+	}
+	.header-item ul li p {
+		padding: 5px 5px;
+	}
+	.header-item ul li p span {
+		font-size: 18px;
+	}
+	.header-item ul li p a i {
+		font-size: 25px;
+	}
+	/* Header End */
+
+	/* Menu Bar Start */
+	.menu-bar {
+		margin: 15px auto;
+	}
+	.menu-custom-img {
+		width: 180px;
+	}
+	.custom-menu {
+		text-align: center;
+	}
+	.custom-menu ul li a {
+		padding: 8px 0 !important;
+	}
+	.custom-btn {
+		padding: 5px 15px;
+	}
+	/* Menu Bar End */
+
+	/* Banner Section Start */
+	.banner-content {
+		margin-top: 80px;
+		margin-bottom: 100px;
+	}
+	.banner-content h1 {
+		font-size: 35px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+	}
+	.banner-content p {
+		font-size: 20px;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		margin-bottom: 10px;
+	}
+	.banner-btn {
+		font-size: 16px;
+		padding: 10px 15px;
+	}
+	/* Banner Section End */
+
+	/* About Section Start */
+	.about {
+		margin: 40px auto;
+	}
+	.about-content h2 {
+		font-size: 18px;
+	}
+	/* About Section End */
+
+	/* Approch Section Start */
+	.approch {
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.single-step {
+		background-color: transparent;
+	}
+	.step-box {
+		width: 65px;
+		height: 65px;
+		top: 38px;
+		right: -20px;
+	}
+	.step-box h1 {
+		font-size: 28px;
+		margin-bottom: 0;
+		margin-top: 3px;
+	}
+	.step-box p {
+		font-size: 17px;
+		margin-top: -6px;
+	}
+	.single-step-content {
+		background-color: #fff;
+		padding: 15px 10px;
+		margin: 20px auto;
+		text-align: center;
+	}
+	.single-step-content p {
+		font-size: 15px;
+	}
+	/* Approch Section End */
+
+	/* OurWork Section Start */
+	.our-work {
+		padding: 40px 0;
+	}
+	.photo-gallery {
+		margin: 20px auto;
+	}
+	.hover-content {
+		padding-top: 40px;
+		padding-bottom: 0;
+	}
+	.hover-content i {
+		font-size: 30px;
+		padding-top: 15px;
+	}
+	.hover-content h1 {
+		font-size: 28px;
+		padding: 10px 28px;
+	}
+	/* OurWork Section End */
+
+	/* Contact Section Start */
+	.contact {
+		padding: 40px 0;
+	}
+	.section-title i {
+		margin-top: 10px;
+	}
+	.inputForm-body {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+	.close-btn {
+		font-size: 18px;
+		padding: 6px 0;
+		width: 45px;
+		height: 45px;
+		top: -18px;
+		right: -18px;
+	}
+	.inputForm-body p {	
+		padding: 10px 20px;
+	}
+	.inputForm-body .custom-input {
+		padding: 15px 10px;
+	}
+	.submit-btn {
+		padding: 6px 25px;
+		margin-top: 20px;
+	}
+	/* Contact Section End */
+
+	/* Newsletter Section Start */
+	.newsletter {
+		padding: 40px 0;
+	}
+	/* Newsletter Section End */
+
+}
+
+/* Small devices [SM] (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	/* Menu Bar Start */
+	.menu-bar {
+		margin: 15px auto;
+	}
+	.custom-menu ul li a {
+		padding: 10px 0 !important;
+	}
+	.custom-btn {
+		padding: 5px 15px;
+	}
+	/* Menu Bar End */
+
+	/* Banner Section Start */
+	.banner-content {
+		margin-top: 80px;
+		margin-bottom: 100px;
+	}
+	.banner-content h1 {
+		font-size: 40px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+	}
+	.banner-content p {
+		font-size: 23px;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		margin-bottom: 12px;
+	}
+	.banner-btn {
+		font-size: 18px;
+		padding: 8px 20px;
+	}
+	/* Banner Section End */
+
+	/* About Section Start */
+	.about {
+		margin: 50px auto;
+	}
+	.about-content h2 {
+		font-size: 19px;
+	}
+	/* About Section End */
+
+	/* Approch Section Start */
+	.approch {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.single-step {
+		background-color: transparent;
+	}
+	.step-box {
+		width: 75px;
+		height: 75px;
+		top: 55px;
+		right: -25px;
+	}
+	.step-box h1 {
+		font-size: 35px;
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+	.step-box p {
+		font-size: 18px;
+		margin-top: -10px;
+	}
+	.single-step-content {
+		background-color: #fff;
+		padding: 10px 22px;
+		margin: 20px auto;
+	}
+	.single-step-content-right {
+		text-align: left;
+	}
+	.single-step-content p {
+		font-size: 15px;
+	}
+	/* Approch Section End */
+
+	/* OurWork Section Start */
+	.our-work {
+		padding: 50px 0;
+	}
+	.photo-gallery {
+		margin: 25px auto;
+	}
+	.hover-content {
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+	.hover-content i {
+		font-size: 30px;
+		padding-top: 15px;
+	}
+	.hover-content h1 {
+		font-size: 28px;
+	}
+	/* OurWork Section End */
+
+	/* Contact Section Start */
+	.contact {
+		padding: 50px 0;
+	}
+	.section-title i {
+		margin-top: 10px;
+	}
+	.inputForm-body {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+	.close-btn {
+		font-size: 18px;
+		padding: 6px 0;
+		width: 45px;
+		height: 45px;
+		top: -18px;
+		right: -18px;
+	}
+	.inputForm-body p {	
+		padding: 10px 20px;
+	}
+	.inputForm-body .custom-input {
+		padding: 15px 10px;
+	}
+	.submit-btn {
+		padding: 6px 25px;
+		margin-top: 20px;
+	}
+	/* Contact Section End */
+
+	/* Newsletter Section Start */
+	.newsletter {
+		padding: 50px 0;
+	}
+	/* Newsletter Section End */
+
+}
+
+/* Medium devices [MD] (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* Menu Bar Start */
+	.menu-bar {
+		margin: 20px auto;
+	}
+	.custom-menu ul li a {
+		padding: 10px 0 !important;
+	}
+	.custom-btn {
+		padding: 5px 15px;
+	}
+	/* Menu Bar End */
+
+	/* Banner Section Start */
+	.banner-content {
+		margin-top: 90px;
+		margin-bottom: 110px;
+	}
+	.banner-content h1 {
+		font-size: 44px;
+		letter-spacing: 1px;
+		word-spacing: 2px;
+	}
+	.banner-content p {
+		font-size: 25px;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+		margin-bottom: 15px;
+	}
+	.banner-btn {
+		font-size: 20px;
+		padding: 8px 20px;
+	}
+	/* Banner Section End */
+
+	/* About Section Start */
+	.about {
+		margin: 60px auto;
+	}
+	.about-content h2 {
+		letter-spacing: 2px;
+	}
+	/* About Section End */
+
+	/* Approch Section Start */
+	.approch {
+		padding: 60px 0;
+	}
+	.step-box {
+		width: 75px;
+		height: 75px;
+		top: 42px;
+		right: -25px;
+	}
+	.step-box2 {
+		top: 42px;
+		left: -25px;
+	}
+	.step-box h1 {
+		font-size: 35px;
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+	.step-box p {
+		font-size: 18px;
+		margin-top: -10px;
+	}
+	.single-step-content {
+		margin: 10px 10px 0px 35px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.single-step-content-right {
+		margin: 10px 35px 0px 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.single-step-content p {
+		font-size: 15px;
+	}
+	/* Approch Section End */
+
+	/* OurWork Section Start */
+	.our-work {
+		padding: 60px 0;
+	}
+	.photo-gallery {
+		margin: 30px auto;
+	}
+	.hover-content {
+		padding-top: 10px;
+		padding-bottom: 0;
+	}
+	.hover-content i {
+		font-size: 30px;
+		padding-top: 15px;
+	}
+	.hover-content h1 {
+		font-size: 28px;
+	}
+	/* OurWork Section End */
+
+	/* Contact Section Start */
+	.contact {
+		padding: 60px 0;
+	}
+	/* Contact Section End */
+
+	/* Newsletter Section Start */
+	.newsletter {
+		padding: 60px 0;
+	}
+	/* Newsletter Section End */
+
+}
+
+/* Large devices [LG](desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	/* Menu Bar Start */
+	.menu-bar {
+		margin: 25px auto;
+	}
+	/* Menu Bar End */
+
+	/* Banner Section Start */
+	.banner-content {
+		margin-top: 100px;
+		margin-bottom: 120px;
+	}
+	/* Banner Section End */
+
+	/* About Section Start */
+	.about {
+		margin: 70px auto;
+	}
+	/* About Section End */
+
+	/* Approch Section Start */
+	.approch {
+		padding: 70px 0;
+	}
+	.step-box {
+		width: 75px;
+		height: 75px;
+		top: 42px;
+		right: -25px;
+	}
+	.step-box2 {
+		top: 42px;
+		left: -25px;
+	}
+	.step-box h1 {
+		font-size: 35px;
+		margin-bottom: 0;
+		margin-top: 5px;
+	}
+	.step-box p {
+		font-size: 18px;
+		margin-top: -10px;
+	}
+	.single-step-content {
+		margin: 30px 10px 25px 35px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.single-step-content-right {
+		margin: 30px 35px 25px 10px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* Approch Section End */
+
+	/* OurWork Section Start */
+	.our-work {
+		padding: 70px 0;
+	}
+	.photo-gallery {
+		margin: 35px auto;
+	}
+	.hover-content {
+		padding-top: 10px;
+		padding-bottom: 0;
+	}
+	.hover-content h1 {
+		font-size: 28px;
+	}
+	/* OurWork Section End */
+
+	/* Contact Section Start */
+	.contact {
+		padding: 80px 0;
+	}
+	/* Contact Section End */
+
+	/* Newsletter Section Start */
+	.newsletter {
+		padding: 70px 0;
+	}
+	/* Newsletter Section End */
+
+}
+
+/* Extra large devices [XL] (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
