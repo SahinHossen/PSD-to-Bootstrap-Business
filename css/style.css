@@ -71,13 +71,25 @@ header {
 .custom-menu ul li a:hover {
 	color: #dd2a24 !important;
 }
+.custom-menu ul li i {
+	font-size: 8px;
+	margin-top: 23px;
+}
 .custom-btn {
 	color: #fff;
 	background-color: #DE2B24;
 	padding: 8px 20px;
 	border-radius: 10px;
+	transition: .5s;
+}
+.custom-btn:hover,
+.submit-btn:hover {
+	color: #DE2B24;
+	background-color: #fff;
+	border: 2px solid #DE2B24;
 }
 /* Menu Bar End */
+
 /* Banner Section Start */
 .banner {
 	background-image: url(../images/Business-Agency-Banner.jpg);
@@ -114,6 +126,11 @@ header {
 	border-radius: 10px;
 	letter-spacing: 1px;
 	margin-top: 15px;
+}
+.banner-btn:hover {
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #f8cd53;
 }
 /* Banner Section End */
 
@@ -344,7 +361,8 @@ header {
 	position: relative;
 	background-color: #fff;
 	border-radius: 10px;
-	padding: 50px 0;
+	padding: 30px 0;
+	margin-top: 40px;
 }
 
 .close-btn a {
@@ -369,17 +387,31 @@ header {
 	text-align: center;
 	font-family: HelveticaNormal;
 	padding: 10px 50px;
+	position: relative;
+}
+.inputForm-body:after {
+	content: '';
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-bottom: 35px solid #fff;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	position: absolute;
+	bottom: 99%;
+	left: 45%;
+	transition: .5s;
 }
 .inputForm-body .custom-input {
 	color: #b0b0b0;
 	font-family: HelveticaNormal;
-	padding: 25px 10px;
+	padding: 20px 10px;
 }
 .submit-btn {
 	color: #fff;
 	background-color: #DE2B24;
 	padding: 8px 35px;
-	margin: 30px auto;
+	margin-top: 30px;
 	border-radius: 5px;
 }
 /* Contact Section End */
@@ -387,7 +419,7 @@ header {
 /* Newsletter Section Start */
 .newsletter {
 	background-color: #2a2a2a;
-	padding: 70px 0;
+	padding: 80px 0;
 }
 .news-title {}
 .news-title h1 {
@@ -418,17 +450,22 @@ header {
 	font-family: 'Open Sans', sans-serif;
 }
 .news-input {
+	color: #fff;
 	background-color: #515151;
 	font-family: 'Open Sans', sans-serif;
 	padding: 25px 10px !important;
 	margin: 20px auto;
+}
+.news-input:focus {
+	color: #fff;
+	background-color: #515151;
 }
 .news-btn {
 	color: #fff;
 	font-size: 17px;
 	font-family: HelveticaBold;
 	background-color: transparent;
-	padding: 15px 30px;
+	padding: 12px 30px;
 	margin: 10px auto;
 	border: 3px solid #424242;
 	border-radius: 5px;
